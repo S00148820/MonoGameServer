@@ -33,7 +33,7 @@ namespace cgMonoGameServer2015.Controllers
             }
 
         }
-        [Authorize]
+        [Authorize]//testing in postman//have to get a token then pass into the method call
         [Route("playerInfo")]
         [HttpGet]
         public PlayerProfile playerInfo()
